@@ -1,7 +1,7 @@
 
 function AboutMe(){
     return (
-        <section className="color-dark d-flex flex-column align-items-center">
+        <section className="color-dark d-flex flex-column align-items-center p-4 mb-4">
             <h2 className="my-3">About Me</h2>
             <img src={require("../assets/headshot.JPG").default} className="img-rounded my-3" alt="Sean Headshot"></img>
             <p className="my-3">
