@@ -1,22 +1,6 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-main {
-	margin: 0 auto;
-	max-width: 90%;
-  padding: 50px 30px;
+body{
+  font-family: 'Dosis', sans-serif;
+  background-color: var(--light);
 }
 
 :root {
@@ -25,6 +9,72 @@ main {
   --tertiary: #DBF9F0;
   --light: #F7F9F7;
   --dark: #210124;
-  --darker: #111111;
-  --error: rgb(228, 46, 1);
 }
+
+.background-primary{
+  background-color: var(--primary);
+}
+
+.background-secondary{
+  background-color: var(--secondary);
+}
+
+.background-tertiary{
+  background-color: var(--tertiary);
+}
+
+.background-light{
+  background-color: var(--light);
+}
+
+.background-dark{
+  background-color: var(--dark);
+}
+
+.color-primary{
+  color: var(--primary);
+}
+
+.color-secondary{
+  color: var(--secondary);
+}
+
+.color-tertiary{
+  color: var(--tertiary);
+}
+
+.color-light{
+  color: var(--light);
+}
+
+.color-dark{
+  color: var(--dark);
+}
+
+/* component styling */
+
+header{
+  border-bottom: solid 6px var(--secondary);
+}
+
+footer{
+  border-top: solid 6px var(--secondary);
+}
+
+.img-rounded{
+  border-radius: 50%;
+  width: 400px;
+  height: auto;
+  border: solid 6px var(--dark);
+}
+
+.navigation-active{
+  color: var(--light);
+  font-weight: bolder;
+  font-size:large;
+}
+
+.navigation-item{
+  cursor: pointer;
+}
+
