@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b27ab406.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.bd174c6a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.bd174c6a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.3323c970.chunk.js": "/react-portfolio/static/js/2.3323c970.chunk.js",
+    "static/js/2.3323c970.chunk.js.map": "/react-portfolio/static/js/2.3323c970.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.b27ab406.chunk.css.map": "/react-portfolio/static/css/main.b27ab406.chunk.css.map",
+    "static/js/2.3323c970.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.3323c970.chunk.js.LICENSE.txt",
+    "static/media/BudgetTracker.png": "/react-portfolio/static/media/BudgetTracker.97b474de.png",
+    "static/media/DeepThoughts.png": "/react-portfolio/static/media/DeepThoughts.8d2086c2.png",
+    "static/media/LocalShop.png": "/react-portfolio/static/media/LocalShop.d003f8f0.png",
+    "static/media/NoteTaker.png": "/react-portfolio/static/media/NoteTaker.daf9e67a.png",
+    "static/media/Resume.a05d36f7.pdf": "/react-portfolio/static/media/Resume.a05d36f7.pdf",
+    "static/media/TheTechBlog.png": "/react-portfolio/static/media/TheTechBlog.fd1ee6cb.png",
+    "static/media/ZooKeepr.png": "/react-portfolio/static/media/ZooKeepr.c16d26e8.png",
+    "static/media/headshot.JPG": "/react-portfolio/static/media/headshot.25686b72.JPG",
+    "static/media/website.png": "/react-portfolio/static/media/website.13215879.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.3323c970.chunk.js",
+    "static/css/main.b27ab406.chunk.css",
+    "static/js/main.bd174c6a.chunk.js"
+  ]
+}
