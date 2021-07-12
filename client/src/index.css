@@ -5,6 +5,7 @@
 body{
   font-family: 'Dosis', sans-serif;
   background-color: var(--light);
+  height: 100vh;
 }
 
 :root {
@@ -57,16 +58,20 @@ body{
 
 /* component styling */
 
-main{
-  width: 100vh;
+.wrapper{
+  min-height: 100vh;
 }
 
 header{
   border-bottom: solid 6px var(--secondary);
+  border-left: solid 6px var(--secondary);
+  border-right: solid 6px var(--secondary);
 }
 
 footer{
   border-top: solid 6px var(--secondary);
+  border-left: solid 6px var(--secondary);
+  border-right: solid 6px var(--secondary);
 }
 
 .img-rounded{
@@ -77,13 +82,13 @@ footer{
 }
 
 .navigation-active{
-  color: var(--light);
-  font-weight: bolder;
+  color: var(--dark);
   font-size:large;
 }
 
 .navigation-item{
   cursor: pointer;
+  font-size: larger;
 }
 
 .card-image{
@@ -115,4 +120,12 @@ ul{
 
 .svg-img:hover{
   color:var(--secondary)
+}
+
+.top-border{
+  border-top: solid 6px var(--secondary);
+}
+
+.bottom-border{
+  border-bottom: solid 6px var(--secondary);
 }

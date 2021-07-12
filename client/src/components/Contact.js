@@ -2,15 +2,22 @@ import { useState } from "react";
 
 function ContactForm(){
 
+    //create a state to keep track of the data being entered into the contact form
     const [formState, setForm] = useState({name: '', email: '', message: ''});
     const {name, email, message} = formState;
 
+    //create a state to hold error messages
     const [error, setError] = useState('');
 
+    //called whenever the cursor leaves a text input
     async function handleChange(event){
+
+        //checks if the target left is an email
         if(event.target.name === 'email'){
+            //regex to validate an email
             var validRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,6}))$/;
 
+            //check if the value in the email input matches the email regex and provides an error if not
             if(!event.target.value.match(validRegex)){
                 await setError('Please enter a valid email.');
             }
@@ -18,6 +25,7 @@ function ContactForm(){
                 await setError('');
             }
         }
+        //check any other field, ie name and message. return an error if there is nothing written
         else{
             if(!event.target.value){
                 await setError('You are missing a required field.');
@@ -27,12 +35,16 @@ function ContactForm(){
             }
         }
 
+        //set the form state whenever the mouse moves out of the input
         setForm({...formState, [event.target.name]: event.target.value});
     }
 
+    //called when the form is submitted
     async function handleSubmit(event){
         event.preventDefault();
 
+        //if there are no validate errors then we will log the form start
+        /******* this is where back-end functionality will need to be implemented ********/
         if(!error){
             console.log(formState);
         }

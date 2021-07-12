@@ -1,11 +1,13 @@
+//import the pdf from the assets so that we can set it as a download
 import pdf from '../assets/Resume.pdf'
 
 function Resume(){
     
+    //include a link to download Sean's resume
     return(
         <section className="d-flex flex-column align-items-center color-dark my-4">
-            <a href={pdf} download="Sean's Resume.pdf" className="a2 mb-4"><h2>Download my resume here!</h2></a>
-            <div className="my-2">
+            <a href={pdf} download="Sean's Resume.pdf" className="a2 mb-4 pb-2 bottom-border"><h2>Download my resume here!</h2></a>
+            <div className="my-4">
                 <h3>Front-End Proficiencies</h3>
                 <ul>
                     <li>React</li>
@@ -16,7 +18,7 @@ function Resume(){
                     <li>Bootstrap</li>
                 </ul>
             </div>
-            <div className="my-2">
+            <div className="my-4">
                 <h3>Front-End Proficiencies</h3>
                 <ul>
                     <li>Express</li>

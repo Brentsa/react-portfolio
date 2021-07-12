@@ -3,10 +3,24 @@ function AboutMe(){
     return (
         <section className="color-dark d-flex flex-column align-items-center p-4 mb-4">
             <h2 className="my-3">About Me</h2>
-            <img src={require("../assets/headshot.JPG").default} className="img-rounded my-3" alt="Sean Headshot"></img>
-            <p className="my-3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-            </p>
+            <img src={require("../assets/headshot.JPG").default} className="img-rounded my-4" alt="Sean Headshot"></img>
+            <div className="top-border d-flex flex-column align-items-center mt-4 pt-4">
+                <p className="my-3">
+                    Pragmatic relationship builder with a passion for technology and innovation.
+                </p>
+                <p className="my-3">
+                    Professional experience comprised of varied disciplines including commercial sales, financial analytics, supply chain management, and product costing.
+                </p>
+                <p className="my-3">
+                    Full-Stack web developer focusing on the MERN stack. I am always ready to learn and incorporate new technologies into my work!
+                </p>
+                <p className="my-3">
+                    Self taught C++ and SQL programmer. Delves into personal passion projects; always hungry to continue improving current capabilities.
+                </p>
+                <p className="my-3">
+                    Driven to create solutions-oriented programs that reside at the precipice of technical innovation while simultaneously balancing aesthetics and functionality.
+                </p>
+            </div>
         </section>
     )
 }

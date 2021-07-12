@@ -3,6 +3,7 @@ import Project from './Project';
 
 function Portfolio(){
 
+    //create a state array for the projects to display in the portfolio
     const [projects] = useState([
         {name: 'Deep Thoughts', url: 'https://fast-plateau-23885.herokuapp.com/', imgSrc: '../assets/DeepThoughts.png', github: 'https://github.com/Brentsa/deep-thoughts'},
         {name: 'LocalShop', url: 'https://shop-local-with-localshop.herokuapp.com/', imgSrc: '../assets/LocalShop.png', github: 'https://github.com/chaitalizn/localshop'},
@@ -13,11 +14,11 @@ function Portfolio(){
     ])
 
     return (
-        <section className="d-flex flex-column align-items-center color-dark p-4 mb-4">
+        <section className="d-flex flex-column align-items-center color-dark">
             <h2 className="my-3">Portfolio</h2>
-            <div className="container d-flex justify-content-evenly flex-wrap">
+            <div className="d-flex justify-content-evenly flex-wrap">
                 {projects.map(project => (
-                    <Project project={project}/>
+                    <Project project={project} key={project.name}/>
                 ))}
             </div>
         </section>
