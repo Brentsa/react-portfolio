@@ -1,8 +1,9 @@
+import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./components/About";
 import ContactForm from "./components/Contact";
-import { useState } from "react";
+import Portfolio from "./components/Portfolio";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
         return <AboutMe/>;
 
       case menuItems[1]:
-        return <div>Portfolio</div>;
+        return <Portfolio/>;
 
       case menuItems[2]:
         return <ContactForm/>;
@@ -30,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className='flex-column justify-flex-start'>
+    <div>
       <Header
         currentPage={currentPage}
         setPage={setPage}

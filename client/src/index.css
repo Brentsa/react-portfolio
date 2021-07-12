@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   font-family: 'Dosis', sans-serif;
   background-color: var(--light);
@@ -53,6 +57,10 @@ body{
 
 /* component styling */
 
+main{
+  width: 100vh;
+}
+
 header{
   border-bottom: solid 6px var(--secondary);
 }
@@ -78,3 +86,16 @@ footer{
   cursor: pointer;
 }
 
+.card-image{
+  height: 80%;
+  border: solid 6px var(--dark);
+}
+
+a{
+  text-decoration: none;
+  color: var(--tertiary);
+}
+
+a:hover{
+  color: var(--primary);
+}
