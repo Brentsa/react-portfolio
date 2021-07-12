@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import AboutMe from "./components/About";
 import ContactForm from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
         return <ContactForm/>;
 
       case menuItems[3]:
-        return <div>Resume</div>;
+        return <Resume/>;
 
       default:
         return <AboutMe/>;

@@ -99,3 +99,20 @@ a{
 a:hover{
   color: var(--primary);
 }
+
+.a2{
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.a2:hover{
+  color: var(--dark);
+}
+
+ul{
+  list-style: none;
+}
+
+.svg-img:hover{
+  color:var(--secondary)
+}
