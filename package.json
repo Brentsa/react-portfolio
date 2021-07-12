@@ -2,12 +2,9 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://brentsa.github.io/react-portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
