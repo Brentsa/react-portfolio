@@ -13,7 +13,7 @@ This is my personal coding portfolio. It was developed using React and is a sing
 * [Credits](#Credits)
 
 ## Usage
-Follow the link here to my portfolio!
+Follow the [link](https://brentsa.github.io/react-portfolio/) here to my portfolio!
 <br><br>
 ![Website Screenshot](./client/src/assets/website.png)
 
