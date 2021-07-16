@@ -19,7 +19,7 @@ function Resume(){
                 </ul>
             </div>
             <div className="my-4">
-                <h3>Front-End Proficiencies</h3>
+                <h3>Back-End Proficiencies</h3>
                 <ul>
                     <li>Express</li>
                     <li>MongoDB</li>
