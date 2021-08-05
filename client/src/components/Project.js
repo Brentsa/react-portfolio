@@ -1,3 +1,5 @@
+import ButtonLink from "./ButtonLink";
+
 //Feed a project into the component using a prop
 function Project({project}){
 
@@ -21,6 +23,12 @@ function Project({project}){
                 <h1 className="project-title">{name}</h1>
                 <a href={url} target="_blank" rel="noreferrer">{name}</a>
                 <a href={github} target="_blank" rel="noreferrer">GitHub <i className="fab fa-github"></i></a>
+                <ButtonLink 
+                    href={github} 
+                    children="GitHub Repo"
+                    icon="fab fa-github"
+                >
+                </ButtonLink>
             </div>
         </div>
     );
