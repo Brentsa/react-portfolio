@@ -4,7 +4,7 @@ function ButtonLink(props){
 
     return (
         <a href={href} target="_blank" rel="noreferrer" className="btn-a">
-            <i className={icon}></i> {children}
+            {icon && <i className={icon}></i>} {children}
         </a>)
 }
 

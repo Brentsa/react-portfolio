@@ -5,13 +5,14 @@ function Portfolio(){
 
     //create a state array for the projects to display in the portfolio
     const [projects] = useState([
-        {name: 'Randomeyes', url: 'https://randomeyes.herokuapp.com/', imgSrc: '../assets/Randomeyes.png', github: 'https://github.com/Brentsa/random-eyes'},
-        {name: 'Deep Thoughts', url: 'https://fast-plateau-23885.herokuapp.com/', imgSrc: '../assets/DeepThoughts.png', github: 'https://github.com/Brentsa/deep-thoughts'},
-        {name: 'LocalShop', url: 'https://shop-local-with-localshop.herokuapp.com/', imgSrc: '../assets/LocalShop.png', github: 'https://github.com/chaitalizn/localshop'},
-        {name: 'The Tech Blog', url: 'https://the-tech-blog-17676761123.herokuapp.com/', imgSrc: '../assets/TheTechBlog.png', github: 'https://github.com/Brentsa/tech-blog'},
-        {name: 'Budget Tracker', url: 'https://budget-tracker-app-456787.herokuapp.com/', imgSrc: '../assets/BudgetTracker.png', github: 'https://github.com/Brentsa/budget-tracker'},
-        {name: 'Zoo Keepr', url: 'https://shrouded-forest-51475.herokuapp.com/', imgSrc: '../assets/ZooKeepr.png', github: 'https://github.com/Brentsa/zookeepr'},
-        {name: 'Note Taker', url: 'https://note-taker-123456789.herokuapp.com/', imgSrc: '../assets/NoteTaker.png', github: 'https://github.com/Brentsa/note-taker'}
+        {name: 'Randomeyes', url: 'https://randomeyes.herokuapp.com/', imgSrc: '../assets/Randomeyes.png', github: 'https://github.com/Brentsa/random-eyes', technologies:['MongoDB', 'Express', 'React', 'Node.js', 'Mongoose', 'GraphQL', 'Apollo', 'Redux', 'JWT', 'Material-UI']},
+        {name: 'Shop-Shop', url: 'https://shop-shop-version-redux.herokuapp.com/', imgSrc: '../assets/Shop-Shop.png', github: 'https://github.com/Brentsa/shop-shop-redux', technologies:['MongoDB', 'Express', 'React', 'Node.js', 'Mongoose', 'GraphQL', 'Apollo', 'Redux', 'IndexedDB']},
+        {name: 'Book Search', url: 'https://google-book-search-engine-app.herokuapp.com/', imgSrc: '../assets/BookSearch.png', github: 'https://github.com/Brentsa/book-search-engine', technologies:['MongoDB', 'Express', 'React', 'Node.js', 'Mongoose', 'GraphQL', 'Apollo']},
+        {name: 'Deep Thoughts', url: 'https://fast-plateau-23885.herokuapp.com/', imgSrc: '../assets/DeepThoughts.png', github: 'https://github.com/Brentsa/deep-thoughts', technologies:['MongoDB', 'Express', 'React', 'Node.js', 'GraphQL', 'Apollo', 'JWT']},
+        {name: 'LocalShop', url: 'https://shop-local-with-localshop.herokuapp.com/', imgSrc: '../assets/LocalShop.png', github: 'https://github.com/chaitalizn/localshop', technologies:['MySQL', 'Express', 'Node.js', 'Sequelize', 'Handlebars', 'Express-Session']},
+        {name: 'The Tech Blog', url: 'https://the-tech-blog-17676761123.herokuapp.com/', imgSrc: '../assets/TheTechBlog.png', github: 'https://github.com/Brentsa/tech-blog', technologies:['MySQL', 'Express', 'Node.js', 'Sequelize', 'Handlebars', 'Express-Session']},
+        {name: 'Budget Tracker', url: 'https://budget-tracker-app-456787.herokuapp.com/', imgSrc: '../assets/BudgetTracker.png', github: 'https://github.com/Brentsa/budget-tracker', technologies:['Express', 'MongoDB', 'Mongoose', 'indexedDB', 'Service-Worker']},
+        {name: 'Pizza Hunt', url: 'https://peaceful-castle-13286.herokuapp.com/add-pizza', imgSrc: '../assets/PizzaHunt.png', github: 'https://github.com/Brentsa/pizza-hunt', technologies:['Express', 'MongoDB', 'Mongoose', 'REST API']}
     ])
 
     return (
