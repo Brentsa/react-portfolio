@@ -19,9 +19,7 @@ function Portfolio(){
         <section className="d-flex flex-column align-items-center color-dark">
             <h2 className="my-3">Portfolio</h2>
             <div className="d-flex justify-content-evenly flex-wrap">
-                {projects.map(project => (
-                    <Project project={project} key={project.name}/>
-                ))}
+                {projects.map((project, i) => <Project key={i} project={project} />) }
             </div>
         </section>
     )
