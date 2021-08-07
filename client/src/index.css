@@ -210,3 +210,24 @@ img{
   background-position: 1px -50px;
   filter: brightness(1.2);
 }
+
+/* Icon Styling */
+
+.resume-card{
+  height: 60%;
+  background: var(--tertiary);
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+
+}
+
+.resume-icon{
+  font-size: 200px;
+  margin: 40px 20px;
+  background: var(--secondary);
+  border-radius: 20px;
+  border-top-right-radius: 70px;
+}
+
+/* */
