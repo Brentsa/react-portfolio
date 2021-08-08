@@ -20,7 +20,7 @@ function Resume()
 
             <ResumeCard/>
             
-            <div className="col-12 col-md-8 d-flex flex-column align-items-center align-items-md-end">
+            <div className="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-end">
                 <ProficiencyBox title="Programming Languages" technologies={languages} techAssets={languageAssets} />
                 <ProficiencyBox title="Front-End Proficiencies" technologies={frontEnd} techAssets={frontEndAssets} />
                 <ProficiencyBox title="Back-End Proficiencies" technologies={backEnd} techAssets={backEndAssets} />
