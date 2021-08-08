@@ -13,7 +13,7 @@ function Project({project}){
     } 
 
     return (
-        <div className="project-card background-secondary">
+        <div className="project-card background-tertiary">
             <a className="project-picture" href={url} target="_blank" rel="noreferrer">
                 <img src={require(`../assets/${name.replace(/ /g, '')}.png`).default} alt={name}/>
             </a>
