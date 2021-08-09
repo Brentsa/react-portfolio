@@ -151,14 +151,6 @@ ul{
   box-shadow: 0px 0px 50px rgba(33, 1, 36, 0.5);
 }
 
-.float-image-text{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .project-picture{
   width: 70%;
   height: 90%;
@@ -170,12 +162,38 @@ ul{
   transition: 0.2s ease-in-out;
 }
 
-.float-image-text:hover{
-  visibility: visible;
+.image{
+  display: block;
+  object-fit: cover;
 }
 
-.project-picture:hover{
-  filter: brightness(.50);
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+.project-picture:hover .overlay{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .50);
+}
+
+.hidden-text{
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .project-card-content{

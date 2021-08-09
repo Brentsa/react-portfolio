@@ -15,7 +15,12 @@ function Project({project}){
     return (
         <div className="project-card background-tertiary">
             <a className="project-picture" href={url} target="_blank" rel="noreferrer">
-                <img src={require(`../assets/${name.replace(/ /g, '')}.png`).default} alt={name}/>
+                
+                <img src={require(`../assets/${name.replace(/ /g, '')}.png`).default} alt={name} className="image"/>
+
+                <div className="overlay">
+                    <p className="hidden-text">Go To Website</p>
+                </div>
             </a>
             <div className="project-card-content">
                 <h1 className="project-title">{name}</h1>
