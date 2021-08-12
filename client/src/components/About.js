@@ -6,7 +6,7 @@ function AboutMe(){
             <img src={require("../assets/headshot.JPG").default} className="img-rounded my-4" alt="Sean Headshot"></img>
             <div className="top-border d-flex flex-column align-items-center mt-4 p-4">
                 <p className="my-3">
-                    Hello, my name is Sean Brent and I am a full-stack web developer with a predominant focus on the MERN stack of technologies. 
+                    Hello, my name is Sean Brent and I am a full-stack web developer with a focus on the MERN stack of technologies. 
                     There is nothing I am more passinate for than software development and I endeavour to continuously improve my craft.
                 </p>
                 <p className="my-3">

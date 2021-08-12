@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ContactInfo from "./ContactInfo";
 
 function ContactForm(){
 
@@ -52,21 +53,28 @@ function ContactForm(){
 
     return(
         <section className="d-flex flex-column align-items-center color-dark p-4 mb-4">
-            <h2 className="mb-4">Contact Me</h2>
-            <form className="w-50" onSubmit={handleSubmit}>
-                <div className="mb-4">
-                    <label htmlFor="name" className="mb-2">Name: </label>
-                    <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange}/>
+            <h2>Contact Me</h2>
+            <form className="col-12 col-md-10 col-lg-8 contact-form" onSubmit={handleSubmit}>
+
+                <ContactInfo/>
+
+                <div className="d-flex flex-wrap justify-content-between">
+                    <div className="mb-4 col-12 col-xl-4">
+                        <label htmlFor="name" className="mb-2">Name: </label>
+                        <input type="text" className="form-control" name="name" defaultValue={name} onBlur={handleChange}/>
+                    </div>
+                    <div className="mb-4 col-12 col-xl-7">
+                        <label htmlFor="email" className="mb-2">Email: </label>
+                        <input type="email" className="form-control" name="email" defaultValue={email} onBlur={handleChange}/>
+                    </div>
+                    <div className="mb-4 col-12">
+                        <label htmlFor="message" className="mb-2">Message: </label>
+                        <textarea name="message" className="form-control" rows="6" defaultValue={message} onBlur={handleChange}/>
+                    </div>
+                    {error && <p>{error}</p>}
                 </div>
-                <div className="mb-4">
-                    <label htmlFor="email" className="mb-2">Email: </label>
-                    <input type="email" className="form-control" name="email" defaultValue={email} onBlur={handleChange}/>
-                </div>
-                <div className="mb-4">
-                    <label htmlFor="message" className="mb-2">Message: </label>
-                    <textarea name="message" className="form-control" rows="6" defaultValue={message} onBlur={handleChange}/>
-                </div>
-                {error && <p>{error}</p>}
+                
+
                 <div className="d-flex flex-column align-items-center">
                     <button className="btn background-secondary color-dark px-4">Submit</button>
                 </div>
