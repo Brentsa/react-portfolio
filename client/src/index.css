@@ -20,6 +20,10 @@ p{
   font-size: 20px;
 }
 
+.indent{
+  text-indent: 20px;
+}
+
 .background-primary{
   background-color: var(--primary);
 }
