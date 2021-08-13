@@ -7,7 +7,7 @@ function Resume()
     const [languages] = useState(['Javascript', 'C++', 'Python', "SQL"]);
     const [frontEnd] = useState(['React', 'Redux', 'Handlebars', 'HTML', 'CSS', "Bootstrap", "JQuery", "Material-UI", 'IndexedDB', 'Webpack'])
     const [backEnd] = useState(['Express', 'MongoDB', 'MySql', 'Mongoose', 'GraphQL', 'Sequelize', 'Apollo', 'Bcrypt', 'Express-Session', 'JSON Web Token'])
-    const [technologies] = useState([ 'Unreal Engine 4', 'Microsoft Visual Code', 'Microsoft Visual Studio 2019', 'Simple DirectMedia Layer 2.0'])
+    const [technologies] = useState([ 'Unreal Engine 4', 'Microsoft Visual Code', 'Microsoft Visual Studio 2019', 'Simple DirectMedia Layer 2.0', 'Git', 'TDD'])
 
     const [languageAssets] = useState(["C++.png", "Javascript.png", "Python.png"])
     const [frontEndAssets] = useState(["React.png", "Redux.png", "CSS.png", "HTML.png"])
