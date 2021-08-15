@@ -76,6 +76,12 @@ header{
   border-right: solid 6px var(--secondary);
 }
 
+.disclaimer{
+  font-size: 12px;
+  color: var(--primary);
+  padding: 14px;
+}
+
 footer{
   border-top: solid 6px var(--secondary);
   border-left: solid 6px var(--secondary);
@@ -334,5 +340,40 @@ ul{
   .navigation-active{
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .project-card{
+    flex-direction: column;
+    margin: 50px 0px;
+    padding: 20px 0px;
+  }
+
+  .project-picture{
+    width: 84%;
+    height: 90%;
+    transform: translateY(-50px);
+  }
+
+  .project-card-content {
+    width: 80%;
+  }
+
+  .project-text {
+    margin: 10px;
+  }
+
+  .contact-form {
+    padding: 12px;
+  }
+
+  .contact-info-box p {
+    margin: 8px 0px;
+  }
+
+  .contact-info-box {
+    flex-direction: column;
   }
 }

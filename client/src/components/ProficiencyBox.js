@@ -1,10 +1,10 @@
 function ProficiencyBox({title, technologies, techAssets})
 {
     return (
-        <div className="my-4 col-10 d-flex flex-column align-items-center">
+        <div className="my-4 col-12 d-flex flex-column align-items-center">
             <h3>{title}</h3>
             <div className="d-flex top-border mt-2">
-                <ul className="col-6 d-flex align-items-start p-4" >
+                <ul className="col-6 d-flex align-items-start p-2" >
                     {technologies.map((tech, i) => <li className="col-12 col-xl-5 my-2 tech-li" key={i}>{tech}</li>)}
                 </ul>
                 <div className="col-6 d-flex flex-wrap justify-content-center">
