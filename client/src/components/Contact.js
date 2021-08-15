@@ -45,9 +45,11 @@ function ContactForm(){
         event.preventDefault();
 
         //if there are no validate errors then we will log the form start
-        /******* this is where back-end functionality will need to be implemented ********/
-        if(!error){
+        if(!error && name && email && message){
             console.log(formState);
+            alert("Message has been emailed!");
+            setForm({name: '', email: '', message: ''})
+            event.target.reset();
         }
     }
 
