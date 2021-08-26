@@ -88,11 +88,44 @@ footer{
   border-right: solid 6px var(--secondary);
 }
 
+.img-container{
+  width: 90%;
+  background: var(--tertiary);
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 30px rgba(33, 1, 36, 0.20);
+}
+
 .img-rounded{
-  border-radius: 50%;
+  border-radius: 40px;
   width: 400px;
   height: auto;
   border: solid 6px var(--dark);
+}
+
+.about-me-text{
+  margin-top: 60px;
+  border-top: solid 4px var(--primary);
+  border-bottom: solid 4px var(--primary);
+}
+
+.paragraph-description{
+  font-size: 24px;
+  margin-top: 26px;
+}
+
+.paragraph-description-closure{
+  font-size: 24px;
+  margin-top: 12px;
+}
+
+.paragraph-description::after{
+  content: " {";
+}
+
+.paragraph-description span{
+  color: var(--primary);
 }
 
 .navigation-active{
