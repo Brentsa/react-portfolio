@@ -9,7 +9,7 @@ import Resume from "./components/Resume";
 function App() {
 
   //create an array of names for the nav menu
-  const [menuItems] = useState(["About Me","Portfolio","Contact","Resume"]);
+  const [menuItems] = useState(["About Me","Portfolio","Resume","Contact"]);
 
   //create a state for the navigation menu
   const [currentPage, setPage] = useState(menuItems[0]);
@@ -24,10 +24,10 @@ function App() {
         return <Portfolio/>;
 
       case menuItems[2]:
-        return <ContactForm/>;
-
-      case menuItems[3]:
         return <Resume/>;
+        
+      case menuItems[3]:
+        return <ContactForm/>;
 
       //***shouldnt occur but it will present About Me section
       default:
