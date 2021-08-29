@@ -409,4 +409,20 @@ ul{
   .contact-info-box {
     flex-direction: column;
   }
+
+  .paragraph-description{
+    font-size: 20px;
+  }
+
+  .paragraph-content{
+    font-size: 18px;
+  }
+
+  .img-rounded {
+    width: 280px;
+  }
+
+  .about-me-text{
+    margin-top: 30px;
+  }
 }

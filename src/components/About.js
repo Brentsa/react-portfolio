@@ -27,7 +27,7 @@ function AboutMe(){
         {
             open: false, 
             name: 'sourceControl', 
-            parameters: 'sean, proficiencies', 
+            parameters: 'sean', 
             content: 'Git was also a major component of our training. Source control is invaluable to a developer and became second nature to me over time. I branch, push, pull, and merge confidently because I understand the functionality of Git. I prefer to work with Git using the Git bash CLI; it is quick and efficient, especially when navigating through directories!'
         },
         {
@@ -45,14 +45,14 @@ function AboutMe(){
     ])
 
     return (
-        <section className="color-dark d-flex flex-column align-items-center p-4 mb-4">
+        <section className="color-dark d-flex flex-column align-items-center p-md-4 mb-4">
             <h2 className="my-3">About Me</h2>
 
             <div className="img-container my-2">
                 <img src={require("../assets/headshot.JPG").default} className="img-rounded my-4" alt="Sean Headshot"></img>
             </div>
     
-            <div className="d-flex flex-column align-items-start p-4 about-me-text w-100">
+            <div className="d-flex flex-column align-items-start pb-3 p-md-4 about-me-text w-100">
                 {descriptions.map(({open, name, parameters, content}, i) => <AccordionItem open={open} name={name} parameters={parameters} content={content} key={i}/>)}
             </div>
         </section>
