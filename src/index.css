@@ -116,7 +116,7 @@ footer{
   border-radius: 40px;
   width: 400px;
   height: auto;
-  border: solid 6px var(--dark);
+  border: solid 2px var(--dark);
 }
 
 .about-me-text{

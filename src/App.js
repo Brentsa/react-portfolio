@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <div className="wrapper d-flex flex-column justify-content-between">
+    <div className="wrapper d-flex flex-column justify-content-between">   
       <Header
         currentPage={currentPage}
         setPage={setPage}
