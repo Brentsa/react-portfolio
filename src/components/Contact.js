@@ -55,7 +55,6 @@ function ContactForm(){
 
     return(
         <section className="d-flex flex-column align-items-center color-dark p-4 mb-4">
-            <h2>Contact Me</h2>
             <form className="col-12 col-md-10 col-lg-8 contact-form" onSubmit={handleSubmit}>
 
                 <ContactInfo/>

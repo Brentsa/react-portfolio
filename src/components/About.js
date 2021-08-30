@@ -46,7 +46,7 @@ function AboutMe(){
 
     return (
         <section className="color-dark d-flex flex-column align-items-center p-md-4 mb-4">
-            <h2 className="my-3">About Me</h2>
+            <h2 className="my-3 text-center p-3">Learn about my story and abilities as a full stack developer.</h2>
 
             <div className="img-container my-2">
                 <img src={require("../assets/headshot.JPG").default} className="img-rounded my-4" alt="Sean Headshot"></img>

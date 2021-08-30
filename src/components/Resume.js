@@ -16,17 +16,19 @@ function Resume()
 
     //include a link to download Sean's resume
     return(
-        <section className="d-flex row color-dark p-4 justify-content-evenly">
+        <section className="d-flex flex-column align-items-center color-dark p-md-4">
+            <h2 className="my-3 text-center p-3">Download my resume and view my proficiencies.</h2>
 
-            <ResumeCard/>
+            <div className="d-flex row color-dark p-4 justify-content-evenly">
+                <ResumeCard/>
             
-            <div className="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-end p-0">
-                <ProficiencyBox title="Programming Languages" technologies={languages} techAssets={languageAssets} />
-                <ProficiencyBox title="Front-End Proficiencies" technologies={frontEnd} techAssets={frontEndAssets} />
-                <ProficiencyBox title="Back-End Proficiencies" technologies={backEnd} techAssets={backEndAssets} />
-                <ProficiencyBox title="Other Technologies" technologies={technologies} techAssets={technologyAssets} />
+                <div className="col-12 col-md-7 d-flex flex-column align-items-center align-items-md-end p-0">
+                    <ProficiencyBox title="Programming Languages" technologies={languages} techAssets={languageAssets} />
+                    <ProficiencyBox title="Front-End Proficiencies" technologies={frontEnd} techAssets={frontEndAssets} />
+                    <ProficiencyBox title="Back-End Proficiencies" technologies={backEnd} techAssets={backEndAssets} />
+                    <ProficiencyBox title="Other Technologies" technologies={technologies} techAssets={technologyAssets} />
+                </div>
             </div>
-
         </section>
     );
 }

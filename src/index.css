@@ -138,15 +138,24 @@ footer{
 .navigation-item{
   cursor: pointer;
   font-size: larger;
-  padding: 18px 6px
+  padding: 18px 10px
 }
 
-a{
+.a-light{
   text-decoration: none;
   color: var(--light);
 }
 
-a:hover{
+.a-light:hover{
+  color: var(--primary);
+}
+
+section a{
+  text-decoration: none;
+  color: var(--dark);
+}
+
+section a:hover{
   color: var(--primary);
 }
 
