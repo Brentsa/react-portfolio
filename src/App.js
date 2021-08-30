@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import AboutMe from "./components/About";
-import ContactForm from "./components/Contact";
+//import ContactForm from "./components/Contact";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 

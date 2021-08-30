@@ -108,7 +108,6 @@ footer{
 .about-me-text{
   margin-top: 60px;
   border-top: solid 4px var(--primary);
-  border-bottom: solid 4px var(--primary);
 }
 
 .paragraph-description{
@@ -157,6 +156,15 @@ section a{
 
 section a:hover{
   color: var(--primary);
+}
+
+footer a{
+  text-decoration: none;
+  color: var(--light);
+}
+
+footer a:hover{
+  color: var(--secondary);
 }
 
 .a2{
@@ -349,23 +357,21 @@ ul{
 }
 
 /* Contact info box */
-
+/* 
 .contact-info-box{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
-  margin: 20px 0 40px 0;
-}
+} */
 
 .contact-info-box p{
-  margin: 20px;
   font-size: 22px;
+  margin: 0px;
 }
 
 .contact-info-box i{
-  color: var(--primary);
+  color: var(--light);
   font-size: 28px;
   padding-right: 4px;
 }
