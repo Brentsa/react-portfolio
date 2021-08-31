@@ -8,7 +8,7 @@ function AboutMe(){
     const [descriptions] = useState([
         {
             open: true, 
-            name: 'introducton', 
+            name: 'introduction', 
             parameters: 'sean', 
             content: 'Hello, my name is Sean Brent, and I am a full-stack web developer with a focus on the MERN stack of technologies. There is nothing I am more passionate about than software development and computer science. I endeavour to continuously improve my craft by learning new technologies and building innovative applications.'
         },
