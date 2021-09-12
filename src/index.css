@@ -151,7 +151,8 @@ footer{
 .navigation-item{
   cursor: pointer;
   font-size: larger;
-  padding: 18px 10px
+  padding: 18px 10px;
+  transition: .2s ease-in-out;
 }
 
 .a-light{
