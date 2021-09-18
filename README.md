@@ -13,7 +13,7 @@ Welcome to my personal programming portfolio (Some aliteration for you!). It is 
 * [Credits](#Credits)
 
 ## Usage
-Go to [seanbrent.ca](seanbrent.ca) to view my portfolio!
+Go to [seanbrent.ca](https://seanbrent.ca/) to view my portfolio!
 <br><br>
 ![Website Screenshot](./src/assets/website.png)
 
