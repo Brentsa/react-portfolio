@@ -13,9 +13,9 @@ Welcome to my personal programming portfolio (Some aliteration for you!). It is 
 * [Credits](#Credits)
 
 ## Usage
-Click this [link](https://brentsa.github.io/react-portfolio/) to view my portfolio!
+Go to [seanbrent.ca](seanbrent.ca) to view my portfolio!
 <br><br>
-![Website Screenshot](./client/src/assets/website.png)
+![Website Screenshot](./src/assets/website.png)
 
 ## License
 MIT License
