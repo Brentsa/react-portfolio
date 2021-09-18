@@ -89,6 +89,14 @@ footer{
   border-right: solid 6px var(--secondary);
 }
 
+footer a{
+  font-size: 20px;
+}
+
+footer i{
+  font-size: 40px;
+}
+
 .img-container{
   width: 90%;
   border-radius: 40px;
