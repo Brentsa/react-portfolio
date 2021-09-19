@@ -9,7 +9,7 @@ function AccordionItem({open, name, parameters, content}){
     }
 
     return (
-        <div>
+        <div className="px-lg-4 py-lg-2">
             <h3 className="paragraph-description" onClick={accordianClick} style={{cursor: 'pointer'}}>
                 {!isActive ? '+' : '-'}<span> function </span>{name}<span>({parameters})</span>{' {'}{!isActive && ` · · · }`}
             </h3>

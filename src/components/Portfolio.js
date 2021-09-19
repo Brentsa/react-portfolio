@@ -16,10 +16,10 @@ function Portfolio(){
     ])
 
     return (
-        <section className="d-flex flex-column align-items-center color-dark p-4">
+        <section className="d-flex flex-column align-items-center color-dark py-4">
             <h2 className="my-3 text-center pt-3">Check out some of the applications I have built.</h2>
             <h3 className="disclaimer">Note: Apps can take 15-20 seconds to load due to inactivity from the free Heroku hosting service.</h3>
-            <div className="d-flex justify-content-evenly flex-wrap">
+            <div className="d-flex justify-content-center justify-content-xl-between flex-wrap">
                 {projects.map((project, i) => <Project key={i} project={project} />) }
             </div>
         </section>
