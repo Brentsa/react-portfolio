@@ -16,7 +16,7 @@ function Resume()
 
     //include a link to download Sean's resume
     return(
-        <section className="d-flex flex-column align-items-center color-dark p-md-4">
+        <section className="d-flex flex-column align-items-center color-dark py-md-4 p-2">
             <h2 className="my-3 text-center p-3">Download my resume and view my proficiencies.</h2>
 
             <div className="d-flex row color-dark p-4 justify-content-evenly">

@@ -4,7 +4,7 @@ import ButtonLink from "./ButtonLink";
 function Project({project}){
 
     //take the name, url, and gihub url from the project
-    const {name, url, github, technologies} = project;
+    const {name, url, github, technologies, summary} = project;
 
     var techList = '';
 
@@ -25,7 +25,10 @@ function Project({project}){
             <div className="project-card-content">
                 <h1 className="project-title">{name}</h1>
                 <p className="project-text">
-                    <span style={{fontSize:"22px", fontWeight:"bold"}}>Technologies:</span> {techList}
+                    <span style={{fontSize:"20px", fontWeight:"bold"}}>Summary:</span> {summary}
+                </p>
+                <p className="project-text">
+                    <span style={{fontSize:"20px", fontWeight:"bold"}}>Technologies:</span> {techList}
                 </p>
                 <ButtonLink 
                     href={github} 

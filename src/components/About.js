@@ -45,7 +45,7 @@ function AboutMe(){
     ])
 
     return (
-        <section className="color-dark d-flex flex-column align-items-center p-md-4 mb-4">
+        <section className="color-dark d-flex flex-column align-items-center p-2 p-md-4 mb-4 ">
             <h2 className="my-3 text-center p-3">Learn about my story and abilities as a full stack developer.</h2>
 
             <div className="img-container my-2">
