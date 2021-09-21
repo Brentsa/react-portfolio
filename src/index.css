@@ -260,6 +260,7 @@ ul{
   width: 100%;
   opacity: 0;
   transition: .3s ease-in-out;
+  overflow: hidden;
 }
 
 .project-picture:hover .overlay{
