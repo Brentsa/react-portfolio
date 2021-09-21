@@ -251,8 +251,8 @@ ul{
 }
 
 .overlay{
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
   position: absolute;
+  border-radius: 16px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -261,7 +261,6 @@ ul{
   width: 100%;
   opacity: 0;
   transition: .3s ease-in-out;
-  overflow: hidden;
 }
 
 .project-picture:hover .overlay{
