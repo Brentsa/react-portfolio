@@ -251,6 +251,7 @@ ul{
 }
 
 .overlay{
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
   position: absolute;
   top: 0;
   bottom: 0;
